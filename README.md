@@ -2,7 +2,7 @@
 
 Attendance system, command line-only interface, c++, simple
 
-# *file*
+# *File*
 
 ### student.h
 
@@ -56,7 +56,7 @@ Attendance system, command line-only interface, c++, simple
 
 Clion(MinGW5.0)，windows7 x64
 
-# *screenshot*
+# *Screenshot*
 
 ![主页面](https://ws1.sinaimg.cn/large/0072Lfvtly1fz9njii798j30es072mx2.jpg)
 
