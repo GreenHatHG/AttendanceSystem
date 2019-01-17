@@ -1,8 +1,8 @@
-# Attendancesystem
+# *AttendanceSystem*
 
 Attendance system, command line-only interface, c++, simple
 
-# file
+# *file*
 
 ### student.h
 
@@ -52,7 +52,25 @@ Attendance system, command line-only interface, c++, simple
 
 成员信息
 
-# 开发环境
+# *Development Environment* 
 
 Clion(MinGW5.0)，windows7 x64
+
+# *screenshot*
+
+![主页面](https://ws1.sinaimg.cn/large/0072Lfvtly1fz9njii798j30es072mx2.jpg)
+
+![](https://ws1.sinaimg.cn/large/0072Lfvtly1fz9nnk4aycj30hi0aeaa2.jpg)
+
+![班委登陆](https://ws1.sinaimg.cn/large/0072Lfvtly1fz9nkshupdj30j009ywef.jpg)
+
+![管理员登陆](https://ws1.sinaimg.cn/large/0072Lfvtly1fz9nlbai5oj30j009udfs.jpg)
+
+![](https://ws1.sinaimg.cn/large/0072Lfvtly1fz9nlrexhaj30ar0b4dfr.jpg)
+
+![](https://ws1.sinaimg.cn/large/0072Lfvtly1fz9nm8ys1rj30dp0bndfu.jpg)
+
+![](https://ws1.sinaimg.cn/large/0072Lfvtly1fz9nmstvegj30an0b2glk.jpg)
+
+![](https://ws1.sinaimg.cn/large/0072Lfvtly1fz9nnacugkj30av08q0sm.jpg)
 
