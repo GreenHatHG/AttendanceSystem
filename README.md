@@ -54,5 +54,5 @@ Attendance system, command line-only interface, c++, simple
 
 # 开发环境
 
-Clion，windows7 x64
+Clion(MinGW5.0)，windows7 x64
 
