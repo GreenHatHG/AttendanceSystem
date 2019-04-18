@@ -40,6 +40,7 @@ struct Student //学生个人信息结构体
     Week week[20];
 };
 
+
 //排序结构体
 typedef struct
 {

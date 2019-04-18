@@ -19,28 +19,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1364">
-              <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+            <state>
+              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#257#652#0" />
+                <element signature="e#654#1020#0" />
+                <element signature="e#1022#1618#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ReadFromText.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="99" column="20" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
+            <state relative-caret-position="108">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#119#277#0" />
+                <element signature="e#424#567#0" />
+                <element signature="e#2078#4597#0" />
               </folding>
             </state>
           </provider>
@@ -49,22 +57,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Show.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="416" column="42" selection-start-line="416" selection-start-column="42" selection-end-line="416" selection-end-column="42" />
+            <state relative-caret-position="54">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#81#377#0" />
+                <element signature="e#379#668#0" />
+                <element signature="e#670#927#0" />
+                <element signature="e#929#1200#0" />
+                <element signature="e#1202#1533#0" />
+                <element signature="e#1535#1869#0" />
+                <element signature="e#1871#2040#0" />
+                <element signature="e#2042#2188#0" />
+                <element signature="e#2189#8506#0" />
+                <element signature="e#8509#8767#0" />
+                <element signature="e#8769#13734#0" />
+                <element signature="e#13736#16668#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rate.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1850">
-              <caret line="120" column="25" selection-start-line="120" selection-start-column="25" selection-end-line="120" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#81#1596#0" />
+                <element signature="e#1598#3425#0" />
+                <element signature="e#3427#5459#0" />
               </folding>
             </state>
           </provider>
@@ -73,22 +94,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Check.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2420">
-              <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+            <state relative-caret-position="189">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UpdateInformation.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2112">
-              <caret line="96" column="40" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#63#237#0" />
+                <element signature="e#239#478#0" />
+                <element signature="e#480#782#0" />
+                <element signature="e#784#1021#0" />
+                <element signature="e#1023#1232#0" />
+                <element signature="e#1234#1443#0" />
+                <element signature="e#1445#1642#0" />
+                <element signature="e#1644#1834#0" />
+                <element signature="e#1836#2051#0" />
+                <element signature="e#2053#2248#0" />
               </folding>
             </state>
           </provider>
@@ -97,8 +115,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SelectSort.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="81">
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+              <folding>
+                <element signature="e#22#396#0" />
+                <element signature="e#398#766#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Student.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
+            <state relative-caret-position="121">
+              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
             </state>
           </provider>
         </entry>
@@ -115,10 +137,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UpdateAttendance.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1408">
-              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="186">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#63#506#0" />
+                <element signature="e#508#723#0" />
+                <element signature="e#725#1055#0" />
+                <element signature="e#1057#1373#0" />
+                <element signature="e#1375#1661#0" />
+                <element signature="e#1663#2009#0" />
+                <element signature="e#2011#2450#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UpdateInformation.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="e#63#549#0" />
+                <element signature="e#551#752#0" />
+                <element signature="e#754#1447#0" />
+                <element signature="e#1449#2267#0" />
               </folding>
             </state>
           </provider>
@@ -127,10 +170,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Select.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="100" column="14" lean-forward="true" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+            <state relative-caret-position="81">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#60#476#0" />
+                <element signature="e#478#723#0" />
+                <element signature="e#725#2105#0" />
+                <element signature="e#2107#2320#0" />
+                <element signature="e#2322#3590#0" />
+                <element signature="e#3592#4995#0" />
+                <element signature="e#4997#6431#0" />
+                <element signature="e#6433#6658#0" />
               </folding>
             </state>
           </provider>
@@ -142,6 +192,7 @@
     <findStrings>
       <find>ll</find>
       <find>is</find>
+      <find>考勤</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -150,21 +201,21 @@
         <option value="$PROJECT_DIR$/Update.cpp" />
         <option value="$PROJECT_DIR$/SelectSort.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/UpdateInformation.cpp" />
         <option value="$PROJECT_DIR$/Check.cpp" />
         <option value="$PROJECT_DIR$/UpdateAttendance.cpp" />
-        <option value="$PROJECT_DIR$/Select.cpp" />
-        <option value="$PROJECT_DIR$/Student.h" />
-        <option value="$PROJECT_DIR$/Show.cpp" />
-        <option value="$PROJECT_DIR$/Main.cpp" />
         <option value="$PROJECT_DIR$/ReadFromText.cpp" />
+        <option value="$PROJECT_DIR$/Show.cpp" />
+        <option value="$PROJECT_DIR$/Select.cpp" />
         <option value="$PROJECT_DIR$/Rate.cpp" />
+        <option value="$PROJECT_DIR$/Student.h" />
+        <option value="$PROJECT_DIR$/Main.cpp" />
+        <option value="$PROJECT_DIR$/UpdateInformation.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="234" />
-    <option name="y" value="-24" />
+    <option name="x" value="442" />
+    <option name="y" value="155" />
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -176,7 +227,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="last_opened_file_path" value="C:/Windows/System32/cmd.exe" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,23 +252,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.3748126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.6256078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.7093207" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39810428" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49926794" weight="0.31604537" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50073206" side_tool="true" weight="0.93841165" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49926794" weight="0.31595576" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50073206" side_tool="true" weight="0.36793894" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="bottom" x="-99" y="352" width="1366" height="208" id="Terminal" order="12" weight="0.328594" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -230,96 +283,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.cpp">
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/8.2.0/include/c++/bits/basic_string.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+        <state relative-caret-position="117">
+          <caret line="6112" selection-start-line="6112" selection-end-line="6112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SelectSort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#22#396#0" />
+            <element signature="e#398#766#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Check.cpp">
+    <entry file="file://$PROJECT_DIR$/UpdateAttendance.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2420">
-          <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+        <state relative-caret-position="186">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#63#506#0" />
+            <element signature="e#508#723#0" />
+            <element signature="e#725#1055#0" />
+            <element signature="e#1057#1373#0" />
+            <element signature="e#1375#1661#0" />
+            <element signature="e#1663#2009#0" />
+            <element signature="e#2011#2450#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UpdateInformation.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2112">
-          <caret line="96" column="40" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
+        <state relative-caret-position="108">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SelectSort.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UpdateAttendance.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReadFromText.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="99" column="20" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Show.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="416" column="42" selection-start-line="416" selection-start-column="42" selection-end-line="416" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#63#549#0" />
+            <element signature="e#551#752#0" />
+            <element signature="e#754#1447#0" />
+            <element signature="e#1449#2267#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Select.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="100" column="14" lean-forward="true" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+        <state relative-caret-position="81">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#60#476#0" />
+            <element signature="e#478#723#0" />
+            <element signature="e#725#2105#0" />
+            <element signature="e#2107#2320#0" />
+            <element signature="e#2322#3590#0" />
+            <element signature="e#3592#4995#0" />
+            <element signature="e#4997#6431#0" />
+            <element signature="e#6433#6658#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Check.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="e#63#237#0" />
+            <element signature="e#239#478#0" />
+            <element signature="e#480#782#0" />
+            <element signature="e#784#1021#0" />
+            <element signature="e#1023#1232#0" />
+            <element signature="e#1234#1443#0" />
+            <element signature="e#1445#1642#0" />
+            <element signature="e#1644#1834#0" />
+            <element signature="e#1836#2051#0" />
+            <element signature="e#2053#2248#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
+          <folding>
+            <element signature="e#81#1596#0" />
+            <element signature="e#1598#3425#0" />
+            <element signature="e#3427#5459#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Show.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#81#377#0" />
+            <element signature="e#379#668#0" />
+            <element signature="e#670#927#0" />
+            <element signature="e#929#1200#0" />
+            <element signature="e#1202#1533#0" />
+            <element signature="e#1535#1869#0" />
+            <element signature="e#1871#2040#0" />
+            <element signature="e#2042#2188#0" />
+            <element signature="e#2189#8506#0" />
+            <element signature="e#8509#8767#0" />
+            <element signature="e#8769#13734#0" />
+            <element signature="e#13736#16668#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#257#652#0" />
+            <element signature="e#654#1020#0" />
+            <element signature="e#1022#1618#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Student.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
+        <state relative-caret-position="121">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rate.cpp">
+    <entry file="file://$PROJECT_DIR$/ReadFromText.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1850">
-          <caret line="120" column="25" selection-start-line="120" selection-start-column="25" selection-end-line="120" selection-end-column="25" />
+        <state relative-caret-position="108">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#119#277#0" />
+            <element signature="e#424#567#0" />
+            <element signature="e#2078#4597#0" />
           </folding>
         </state>
       </provider>

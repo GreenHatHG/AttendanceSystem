@@ -96,14 +96,22 @@ void Level2Menu4()
     cout << "0.返回上一层" << endl;
 }
 
+void Level3Menu1()
+{
+    cout << "请选择你要的功能" << endl;
+    cout << "1.查询考勤信息" << endl;
+    cout << "2.查询班级序号" << endl;
+    cout << "0.退出" << endl;
+}
 void Administrator()
 {
     int select1 = 0, select2 = 0;
+    system("cls");
     cout << "本系统均使用学生班级序号来查询，若不知道班级序号，请用第四点查询" << endl;
+    cout << endl;
+    Level1Menu();
     while(true)
     {
-        cout << endl;
-        Level1Menu();
         cin >> select1;
         while( 0 < select1 && select1 > 5)
         {
@@ -127,24 +135,30 @@ void Administrator()
                     }
                     if(select2 == 0)
                     {
+                        system("cls");
                         Level1Menu();
                         break;
                     }
                     switch(select2)
                     {
                         case 1:
+                            system("cls");
                             modifyAuthority();
                             break;
                         case 2:
+                            system("cls");
                             deleteMember();
                             break;
                         case 3:
+                            system("cls");
                             modifyInformation();
                             break;
                         case 4:
+                            system("cls");
                             addInformation();
                             break;
                         case 5:
+                            system("cls");
                             showAllMember();
                             break;
                     }
@@ -164,27 +178,34 @@ void Administrator()
                     }
                     if(select2 == 0)
                     {
+                        system("cls");
                         Level1Menu();
                         break;
                     }
                     switch(select2)
                     {
                         case 1:
+                            system("cls");
                             addAttendance();
                             break;
                         case 2:
+                            system("cls");
                             modifyAttendance();
                             break;
                         case 3:
+                            system("cls");
                             deleteAttendanceID();
                             break;
                         case 4:
+                            system("cls");
                             deleteAttendanceWeek();
                             break;
                         case 5:
+                            system("cls");
                             deleteAttendanceDay();
                             break;
                         case 6:
+                            system("cls");
                             deleteAttendanceLession();
                             break;
                     }
@@ -203,27 +224,34 @@ void Administrator()
                     }
                     if(select2 == 0)
                     {
+                        system("cls");
                         Level1Menu();
                         break;
                     }
                     switch(select2)
                     {
                         case 1:
+                            system("cls");
                             showOneALL();
                             break;
                         case 2:
+                            system("cls");
                             showOneWeek();
                             break;
                         case 3:
+                            system("cls");
                             showOneDay();
                             break;
                         case 4:
+                            system("cls");
                             showOneLession();
                             break;
                         case 5:
+                            system("cls");
                             showOneRate();
                             break;
                         case 6:
+                            system("cls");
                             showWeekRateAll();
                             break;
                     }
@@ -242,22 +270,28 @@ void Administrator()
                     }
                     if(select2 == 0)
                     {
+                        system("cls");
                         Level1Menu();
                         break;
                     }
                     switch(select2)
                     {
                         case 1:
+                            system("cls");
                             selectNoFromName();
                             break;
                         case 2:
+                            system("cls");
                             selectNoFromID();
                             break;
                     }
                 }
                 break;
             case 5:
+                system("cls");
                 RateAllWeek();
+                cout << endl;
+                Level1Menu();
                 break;
         }
     }
@@ -279,11 +313,12 @@ void CLevel1Menu()
 void Committee()
 {
     int select1 = 0, select2 = 0;
+    system("cls");
     cout << "本系统均使用学生班级序号来查询，若不知道班级序号，请用第四点查询" << endl;
+    cout << endl;
+    CLevel1Menu();
     while(true)
     {
-        cout << endl;
-        CLevel1Menu();
         cin >> select1;
         while( 0 < select1 && select1 > 5)
         {
@@ -296,11 +331,12 @@ void Committee()
                 return;
             case 1:
                 showAllMember();
+                CLevel1Menu();
                 break;
             case 2:
                 while(true)
                 {
-                    RateAllWeek();
+                //    RateAllWeek();
                     cout << endl;
                     Level2Menu2();
                     cin >> select2;
@@ -311,36 +347,43 @@ void Committee()
                     }
                     if(select2 == 0)
                     {
+                        system("cls");
                         Level1Menu();
                         break;
                     }
                     switch(select2)
                     {
                         case 1:
+                            system("cls");
                             addAttendance();
                             break;
                         case 2:
+                            system("cls");
                             modifyAttendance();
                             break;
                         case 3:
+                            system("cls");
                             deleteAttendanceID();
                             break;
                         case 4:
+                            system("cls");
                             deleteAttendanceWeek();
                             break;
                         case 5:
+                            system("cls");
                             deleteAttendanceDay();
                             break;
                         case 6:
+                            system("cls");
                             deleteAttendanceLession();
                             break;
                     }
                 }
                 break;
             case 3:
+                cout << endl;
                 while(true)
                 {
-                    cout << endl;
                     Level2Menu3();
                     cin >> select2;
                     while( 0 < select2 && select2 > 6)
@@ -350,32 +393,38 @@ void Committee()
                     }
                     if(select2 == 0)
                     {
+                        system("cls");
                         Level1Menu();
                         break;
                     }
                     switch(select2)
                     {
                         case 1:
+                            system("cls");
                             showOneALL();
                             break;
                         case 2:
+                            system("cls");
                             showOneWeek();
                             break;
                         case 3:
+                            system("cls");
                             showOneDay();
                             break;
                         case 4:
+                            system("cls");
                             showOneLession();
                             break;
                         case 5:
+                            system("cls");
                             showOneRate();
                             break;
                         case 6:
+                            system("cls");
                             showWeekRateAll();
                             break;
                     }
                 }
-
                 break;
             case 4:
                 while(true)
@@ -390,22 +439,28 @@ void Committee()
                     }
                     if(select2 == 0)
                     {
+                        system("cls");
                         Level1Menu();
                         break;
                     }
                     switch(select2)
                     {
                         case 1:
+                            system("cls");
                             selectNoFromName();
                             break;
                         case 2:
+                            system("cls");
                             selectNoFromID();
                             break;
                     }
                 }
                 break;
             case 5:
+                system("cls");
                 RateAllWeek();
+                cout << endl;
+                CLevel1Menu();
                 break;
         }
     }
@@ -414,6 +469,7 @@ void Committee()
 void Student()
 {
     int select1 = 0, select2 = 0;
+    system("cls");
     cout << "本系统均使用学生班级序号来查询，若不知道班级序号，请用第二点查询" << endl;
     cout << "请选择你要的功能" << endl;
     cout << "1.查询考勤信息" << endl;
@@ -444,27 +500,34 @@ void Student()
                 }
                 if(select2 == 0)
                 {
-                    Level1Menu();
+                    system("cls");
+                    Level3Menu1();
                     break;
                 }
                 switch(select2)
                 {
                     case 1:
+                        system("cls");
                         showOneALL();
                         break;
                     case 2:
+                        system("cls");
                         showOneWeek();
                         break;
                     case 3:
+                        system("cls");
                         showOneDay();
                         break;
                     case 4:
+                        system("cls");
                         showOneLession();
                         break;
                     case 5:
+                        system("cls");
                         showOneRate();
                         break;
                     case 6:
+                        system("cls");
                         showWeekRateAll();
                         break;
                 }
@@ -483,15 +546,18 @@ void Student()
                     }
                     if(select2 == 0)
                     {
-                        Level1Menu();
+                        system("cls");
+                        Level3Menu1();
                         break;
                     }
                     switch(select2)
                     {
                         case 1:
+                            system("cls");
                             selectNoFromName();
                             break;
                         case 2:
+                            system("cls");
                             selectNoFromID();
                             break;
                     }

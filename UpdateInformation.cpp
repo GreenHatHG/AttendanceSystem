@@ -2,7 +2,6 @@
 #include "Student.h"
 using namespace std;
 
-
 //更改班级成员权限
 void modifyAuthority()
 {

@@ -88,7 +88,7 @@ void showOneALL()
         return;
     cout << "查询成功，你查询的是" << endl;
     showPersion(num);
-    cout << "考勤情况:" << endl;
+//    cout << "考勤情况:" << endl;
     showPersionAttendance(num);
 }
 

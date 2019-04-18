@@ -1,4 +1,4 @@
-# Install script for directory: D:/cygwin/home/Administrator/program/untitled
+# Install script for directory: E:/AttendanceSystem
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/cygwin/home/Administrator/program/untitled/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/AttendanceSystem/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

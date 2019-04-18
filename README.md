@@ -2,6 +2,8 @@
 
 Attendance system, command line-only interface, c++, simple
 
+**更新为cmd运行，clion里面运行不美观，所以编译后，直接打开`cmake-build-debug`的`untitled.exe`运行**
+
 # *File*
 
 ### student.h

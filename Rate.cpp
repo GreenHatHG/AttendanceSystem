@@ -55,7 +55,7 @@ void showOneRate()
     cout << "2.按照出勤率从大到小输出" << endl;
     cout << "3.按照出勤率从小到大输出" << endl;
     int select = CheckInputSelect();
-    cout << "考勤情况:" << endl;
+ //  cout << "考勤情况:" << endl;
     if(select == 1)
     {
         for(int i = 1; i <= 20; i++)
@@ -88,8 +88,9 @@ void showOneRate()
             {
                 if(arr[i].week != -1)
                 {
-                    double ans = stu.student[num].week[i].rate * 100;
-                    printf("第%d周: %0.2lf%%\n", i, ans);
+                    //double ans = stu.student[num].week[i].rate * 100;
+                    double ans = arr[i].rate * 100;
+                    printf("第%d周: %0.2lf%%\n", arr[i].week, ans);
                 }
             }
         }
@@ -99,8 +100,9 @@ void showOneRate()
             {
                 if(arr[i].week != -1)
                 {
-                    double ans = stu.student[num].week[i].rate * 100;
-                    printf("第%d周: %0.2lf%%\n", i, ans);
+                //    double ans = stu.student[num].week[i].rate * 100;
+                    double ans = arr[i].rate * 100;
+                    printf("第%d周: %0.2lf%%\n", arr[i].week, ans);
                 }
             }
         }
@@ -117,7 +119,7 @@ void showWeekRateAll()
     cout << "1.按照班级序号正序输出" << endl;
     cout << "2.按照出勤率从大到小输出" << endl;
     cout << "3.按照出勤率从小到大输出" << endl;
-    cout << "考勤情况:" << endl;
+  //  cout << "考勤情况:" << endl;
     int select = CheckInputSelect();
     if(select == 1)
     {

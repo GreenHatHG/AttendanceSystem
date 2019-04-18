@@ -40,7 +40,7 @@ void loadStudentInformation()
     bool first = 1;
     int MAXnum = 0;
     FILE *fp;
-    char filename[30] = "StudentInformation.txt";
+    char filename[70] = "E:\\AttendanceSystem\\StudentInformation.txt";
     if((fp = fopen(filename, "r")) == NULL)
         cout << "未导入学生信息文件，请检查文件是否存在" << endl;
     else
@@ -87,8 +87,8 @@ void loadAttendanceInformation()
     const int dayNum = 5;
     for(int i = 1; i <= dayNum; i++)
     {
-        char filename[20];
-        strcpy(filename, "./AttendanceInformation/");
+        char filename[200];
+        strcpy(filename, "E:\\AttendanceSystem\\AttendanceInformation\\");
         strcat(filename, intConvertString(i));
         strcat(filename, ".txt");
         FILE *fp;
